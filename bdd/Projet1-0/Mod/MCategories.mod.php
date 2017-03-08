@@ -72,6 +72,11 @@ class MCategories
     return $the_values;
   
   } // SelectAll()
+
+    public function GetValues()
+    {
+
+    }
   
 } // MCategories
 ?>
