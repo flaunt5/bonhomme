@@ -1,0 +1,23 @@
+/**
+ * Fichier CSS
+ * Fichier maître pour assembler tous les fichiers css
+ * @author Christian Bonhomme
+ * @version 1.0
+ * @package PROJET-MOOC
+ */
+
+@charset "UTF-8";
+
+@import "normalisation.css" screen;
+
+@import "layout.css" screen;
+
+@import "header.css" screen;
+
+@import "menu.css" screen;
+
+@import "products.css" screen;
+
+@import "form.css" screen;
+
+@import "media-queries.css";

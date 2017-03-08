@@ -1,0 +1,40 @@
+/**
+ * Fichier CSS
+ * pour l'entête
+ * @author Christian Bonhomme
+ * @version 1.0
+ * @package PROJET-MOOC
+ */
+
+#logo
+{
+float: left;
+margin: 0 10px;
+width: 180px;
+height: 120px;
+text-indent: -9999em;
+background: transparent url(../Img/logo.png) no-repeat;
+cursor: pointer;
+}
+
+#bandeau
+{
+float: left;
+margin: 10px;
+width: 580px;
+height: 100px;
+text-indent: -9999em;
+background: transparent url(../Img/pub580.png) no-repeat;
+}
+
+nav 
+{
+clear: both;
+height: 30px;
+background-color: #9bcdcd;
+}
+
+nav p
+{
+line-height: 30px;
+}

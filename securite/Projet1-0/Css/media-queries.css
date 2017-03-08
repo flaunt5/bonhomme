@@ -1,0 +1,68 @@
+/**
+ * Fichier CSS
+ * pour les Media Queries
+ * @author Christian Bonhomme
+ * @version 1.0
+ * @package PROJET-MOOC
+ */
+
+@media print
+{
+  body 
+  {
+  font-family: times, garamond, serif;
+  }
+  
+  header, footer
+  {
+  display: none;
+  }
+}
+
+@media screen and (min-width:1000px)
+{
+  body 
+  {
+  width: 1000px;
+  }
+  
+  #bandeau
+  {
+  width: 780px;
+  background: transparent url(../Img/pub780.png) no-repeat;
+  }
+}
+
+@media screen and (max-device-width:480px) and (orientation:portrait)
+{
+  body 
+  {
+  width: 480px;
+  }
+  
+  #bandeau, #logo, footer, aside
+  {
+  display: none;
+  }
+  
+  header
+  {
+  height: 30px;
+  }
+  
+  li
+  {
+  margin: 5px 5px;
+  }
+  
+  li a
+  {
+  font-size: 90%;
+  width: 140px;
+  }
+
+  #content
+  {
+  width: 480px;
+  }
+}

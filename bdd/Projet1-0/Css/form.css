@@ -1,0 +1,94 @@
+/**
+ * Fichier CSS
+ * pour les formulaires
+ * @author Christian Bonhomme
+ * @version 1.0
+ * @package PROJET-MOOC
+ */
+ 
+fieldset
+{
+width: 23em;
+margin: 20px auto;
+text-align: center;
+border: 1px solid #008080;
+border-radius: 15px;
+}
+
+label
+{
+display: inline-block;
+width: 6em;
+color: #008080;
+font-weight: bold;
+text-align: right;
+padding-right: 5px;
+}
+
+fieldset p
+{
+text-align: left;
+}
+
+/* <input> */
+#tel, #mob
+{
+width: 110px;
+}
+
+input
+{
+margin: 0;
+color: #008080;
+font-weight: bold;
+}
+
+input[type="submit"], #error button
+{
+background-color: #008080;
+color: #fff;
+border: 1px solid #008080;
+border-radius: 15px;
+}
+
+input[type="submit"]:hover, #error button:hover
+{
+background-color: #c6d9f1;
+color: #008080;
+transition-property: background-color, color;
+transition-duration: 0.5s;
+transition-timing-function: ease-in;
+}
+
+/* error */
+#error
+{
+position: absolute;
+top: 370px;
+left: 50%;
+display: none;
+border: 2px solid #008080;
+border-radius: 15px;
+background-color: #e1eef1;
+padding: 10px;
+text-align: left;
+box-shadow: 8px 8px 8px #008080;
+}
+
+#error p
+{
+margin: 0;
+}
+
+#error .label
+{
+padding-left: 10px;
+font-weight: bold;
+}
+
+#error button
+{
+width: 40px;
+font-weight: bold;
+margin-top: 20px;
+}

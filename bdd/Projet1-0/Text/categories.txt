@@ -1,0 +1,6 @@
+1;Beauté & Bien-être
+2;Mode & Bijoux
+3;Nutrition & Recettes
+4;Aromathérapie;1
+5;Minceur;1
+6;Soin du corps;1
